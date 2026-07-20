@@ -20,15 +20,15 @@ To build this DIY Smart Farm node, you will need:
 
 ## 🔌 Wiring Guide
 
-Please connect your components to the ESP32 as follows:
+Please connect your components to the ESP32 as follows. *(Note: On some ESP32 boards, the GPIO pins are labeled with a 'D', for example, D16 is GPIO 16).*
 
 | Component | Pin Name | ESP32 Pin |
 | :--- | :--- | :--- |
 | **HX711** | VCC | 3.3V or 5V (Check your module) |
 | **HX711** | GND | GND |
-| **HX711** | DT (DOUT) | **GPIO 16** |
-| **HX711** | SCK | **GPIO 4** |
-| **Relay (Pump)** | IN / Signal | **GPIO 5** |
+| **HX711** | DT (DOUT) | **D16 (GPIO 16)** |
+| **HX711** | SCK | **D4 (GPIO 4)** |
+| **Relay (Pump)** | IN / Signal | **D5 (GPIO 5)** |
 | **Relay (Pump)** | VCC | 5V / VIN |
 | **Relay (Pump)** | GND | GND |
 
