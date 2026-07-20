@@ -7,7 +7,7 @@ const char* ssid = "YOUR_WIFI_SSID";
 const char* password = "YOUR_WIFI_PASSWORD";
 
 // --- MQTT SERVER SETTINGS (Hardcoded for Smart Farm App) ---
-const char* mqtt_server = "132.29.230.65";
+const char* mqtt_server = "113.29.230.65";
 const int mqtt_port = 1883;
 const char* mqtt_user = "iot_node"; 
 const char* mqtt_pass = "farm1234"; 
